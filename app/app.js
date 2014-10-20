@@ -5,7 +5,6 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.product.list',
   'myApp.product.view',
-  'myApp.version',
   'ngMockE2E'
 ]).
 config(['$routeProvider', function($routeProvider) {
